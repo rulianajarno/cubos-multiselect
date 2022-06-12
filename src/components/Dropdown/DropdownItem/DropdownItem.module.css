@@ -1,0 +1,58 @@
+.item {
+    padding: 0 4px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    user-select: none;
+  }
+  
+  .label input {
+    display: none;
+  }
+  
+  .label input + span:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid gray;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+  }
+  
+  .label input:checked + span:before {
+    background-color: #1782ff;
+    background-position: center;
+    border: none;
+    padding: 1px;
+  }
+  
+  .label:hover {
+    background-color: #eaf1f7;
+    border-radius: 5px;
+  }
+  
+  .label span {
+    padding-left: 4px;
+  }
+  
+  .iconLang {
+    margin-right: 10px;
+    display: flex;
+  }
+  
+  .checkbox:checked{
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  

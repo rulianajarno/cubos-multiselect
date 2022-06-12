@@ -1,0 +1,22 @@
+.select {
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #1782ff;
+    margin-right: 4px;
+    padding: 6px 0 6px 12px;
+    font-size: 13px;
+    line-height: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 2px 9px 4.5px 1.5px;
+  }
+  .selectIcon {
+    padding: 5px 12px 5px 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    fill: #ffffff;
+  }
+  
